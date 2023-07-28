@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "clone": "git clone git@github.com:chourcade/core-app.git;git clone git@github.com:chourcade/playground-app.git;git clone git@github.com:chourcade/login-app.git"
+    }
+}
