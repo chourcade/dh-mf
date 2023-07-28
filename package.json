@@ -1,8 +1,8 @@
 {
     "scripts": {
-        "clone": "git clone git@github.com:chourcade/core-app.git;git clone git@github.com:chourcade/playground-app.git;git clone git@github.com:chourcade/login-app.git",
+        "clone": "git clone git@github.com:chourcade/core-app.git;git clone git@github.com:chourcade/playground-app.git;git clone git@github.com:chourcade/login-app.git;echo  '\n \n NODE 18.16.0 IS REQUIRED  \n  \n'",
         "installAll": "cd core-app/; npm install;cd ../login-app/; npm install; cd ../playground-app/;npm install;",
-        "start": "concurrently \"cd core-app && npm run dev;\" \"cd login-app && npm run dev;\" \"cd playground-app && npm run dev\""
+        "start": "concurrently \"cd core-app && npm run dev;\" \"cd login-app && npm run dev;\" \"cd playground-app && npm run dev\"; "
     },
     "dependencies": {
         "concurrently": "^8.2.0"
