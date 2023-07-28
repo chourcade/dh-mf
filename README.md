@@ -1,3 +1,9 @@
+```
+  npm i
+  npm run clone
+  npm run installAll
+  npm start
+```
 # POC Micro fronts
 
 Este es una prueba de conecepto para empezar a usar una artitectura orientada a los micro fronts.
@@ -73,4 +79,4 @@ const nextConfig = {
 module.exports = nextConfig
 ```
 
-***Con esto ya deberiamos haber configurado nuestro Core app**
+**Con esto ya deberiamos haber configurado nuestro Core app**
